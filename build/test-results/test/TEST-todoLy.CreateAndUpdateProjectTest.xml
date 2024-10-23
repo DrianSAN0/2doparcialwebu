@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="todoLy.CreateAndUpdateProjectTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-10-23T20:32:56" hostname="DESKTOP-JCN9NF3" time="19.247">
+  <properties/>
+  <testcase name="Verify create project is successfully" classname="todoLy.CreateAndUpdateProjectTest" time="19.247"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[oct 23, 2024 4:32:58 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+ADVERTENCIA: Unable to find an exact match for CDP version 130, returning the closest version; found: 129; Please update to a Selenium version that supports CDP version 130
+]]></system-err>
+</testsuite>

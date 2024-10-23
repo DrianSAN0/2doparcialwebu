@@ -2,8 +2,6 @@ package session;
 
 import factoryBrowser.FactoryBrowser;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-
 public class Session {
     // atributo del mismo tipo de la clase
     private static Session session = null;
@@ -19,12 +17,10 @@ public class Session {
             session = new Session();
         return session;
     }
-
     public void closeSession(){
         browser.quit();
         session=null;
     }
-
     public WebDriver getBrowser() {
         return browser;
     }
